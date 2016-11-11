@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/student_name"
+        android:hint="输入姓名"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/student_id"
+        android:hint="输入学号"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/student_class"
+        android:hint="输入班级"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/student_grade1"
+        android:hint="考核成绩一"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/student_grade2"
+        android:hint="考核成绩二"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/student_grade3"
+        android:hint="考核成绩三"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/student_grade4"
+        android:hint="考核成绩四"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/student_grade5"
+        android:hint="考核成绩五"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/student_totle"
+        android:hint="总评"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="34dp"
+        android:text="修改"
+        android:id="@+id/btn_change" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:text="删除"
+        android:id="@+id/btn_delete" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:text="添加"
+        android:id="@+id/btn_add_student" />
+</LinearLayout>

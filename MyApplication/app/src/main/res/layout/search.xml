@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/search_name"
+        android:hint="学生姓名"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="查找"
+        android:id="@+id/btn_search_dialog" />
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:visibility="gone"
+        android:layout_height="381dp"
+        android:id="@+id/search_result" />
+
+</LinearLayout>
